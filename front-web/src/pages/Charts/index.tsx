@@ -3,7 +3,6 @@ import Filters from '../../components/Filters'
 import './styles.css'
 import Chart from 'react-apexcharts'
 import { barOptions, pieOptions } from './chart-options'
-import { type } from 'os'
 import Axios from 'axios'
 import { buildBarSeries, getGenderChartData, getPlatformChartData } from './helpers'
 
